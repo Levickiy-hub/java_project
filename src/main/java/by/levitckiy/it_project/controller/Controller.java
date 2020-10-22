@@ -30,7 +30,6 @@ public class Controller {
         ModelAndView modelAndView = new ModelAndView();
 //      modelAndView.setViewName("index");
 //      model.addAttribute("message", message);
-//        action.execute(model,modelAndView);
         return action.execute(model,modelAndView);
     }
 }
