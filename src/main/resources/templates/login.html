@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 <h1>login</h1>
+<form th:action="@{/}" method="post">
+<!--    <input type="text" th:field="*{login}" th:placeholder="login">-->
+<!--    <input type="password" th:field="*{password}" th:placeholder="password">-->
+    <input type="button" value="Кнопка" onClick='location.href="http://localhost:8080/?k=login_in"'>
+</form>
+<form method="get">
+
+    <input type="button" value="Кнопка" onClick='location.href="http://localhost:8080/?k=registration"'>
+</form>
 </body>
 </html>

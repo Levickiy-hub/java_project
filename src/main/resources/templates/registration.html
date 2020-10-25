@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/?k=reg_in">
+    <input type="text" name="login" th:placeholder="login">
+    <input type="password" name="password" th:placeholder="password">
+    <input type="text" name="name" th:placeholder="name">
+    <select name="privilege">
+        <option selected value="1">Admin</option>
+        <option value="0">user</option>
+    </select>
+   <button>button</button>
+</form>
+</body>
+</html>
